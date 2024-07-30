@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+ }
+ .container{
+    width: 90%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+ }
+
+ h1{
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+
+ input{
+    width: 70%;
+    padding: 10px;
+    border: 5px solid rgb(6, 145, 145);
+    outline: none;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+ }
+ button{
+    width: 14%;
+    height: 50px;
+    background-color: midnightblue;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    font-weight: 700;
+ }
+
+ button:hover{
+    color: #000;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    transition: 0.5s;
+ }
+
+
+ .text ul{
+    position: relative;
+    background-color: rgb(5, 31, 31);
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    font-weight: 700;
+    text-align: left;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30px;
+    word-break: break-all;
+ }
+ .text ul i{
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+    color: red;
+ }
+
+ @media only screen and (max-width: 450px) {
+    .container{
+        width: 95%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    input{
+        width: 80%;
+        font-size: 1.2rem;
+    }
+
+    button{
+        width: 25%;
+        font-size: 1.2rem;
+        padding: 10px;
+        margin-top: -25px;
+    }
+ }

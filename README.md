@@ -1,1 +1,1 @@
-# To-Do-List
+Please note that the projects in this repository are not entirely my original work. They have been developed by taking references and inspiration from various social media platforms, with some modifications and improvements made by me.
